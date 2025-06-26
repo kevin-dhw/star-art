@@ -17,7 +17,6 @@ const RightContent = () => {
 
   return (
     <div className=" bg-white h-full">
-      <span>111</span>
       {component === "Home" && <Home />}
       {component === "Summary" && <Summary />}
       {component === "User" && <User />}
