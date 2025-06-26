@@ -12,7 +12,7 @@ export default async function ProtectedPage() {
   }
 
   return (
-    <div className=" flex gap-2 bg-white h-full">
+    <div className=" flex gap-2 bg-slate-300 h-full">
       <div>
         <LeftContent></LeftContent>
       </div>
