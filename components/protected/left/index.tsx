@@ -16,7 +16,6 @@ const LeftContent = () => {
               <div
                 onClick={() => {
                   changeOutActive(idx);
-                  console.log(tabList, "tabList");
                 }}
                 className={classnames(
                   " text-[18px] mp-[10px] font-bold flex justify-between py-[10px]",
@@ -29,7 +28,7 @@ const LeftContent = () => {
                 )}
               </div>
               {item.isActive && (
-                <div className="  bg-white">
+                <div className=" bg-white">
                   {item.children?.map((ele, index) => {
                     return (
                       <div
