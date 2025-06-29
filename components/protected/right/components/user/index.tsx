@@ -108,11 +108,11 @@ const User = () => {
       <div className=" pt-[20px] flex gap-5">
         <div className=" flex items-center">
           <div className=" w-[70px]">姓名</div>
-          <Input onChange={onChangeName} placeholder="Basic usage" />
+          <Input onChange={onChangeName} placeholder="请输入姓名" />
         </div>
         <div className=" flex items-center">
-          <div className=" w-[70px]">电话</div>
-          <Input onChange={onChangePhone} placeholder="Basic usage" />
+          <div className=" w-[200px]">请输入手机号码</div>
+          <Input onChange={onChangePhone} placeholder="请输入手机号码" />
         </div>
         <div className="  flex-1"></div>
         <div className=" flex items-center">
