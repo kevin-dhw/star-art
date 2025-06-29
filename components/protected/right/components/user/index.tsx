@@ -54,9 +54,17 @@ const columns: TableColumnsType<DataType> = [
           onClick={() => {
             console.log("delete");
           }}
-          type="primary"
+          danger
         >
           删除
+        </Button>
+        <Button
+          onClick={() => {
+            console.log("delete");
+          }}
+          type="primary"
+        >
+          编辑
         </Button>
         <Button
           onClick={() => {
