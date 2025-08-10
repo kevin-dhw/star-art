@@ -2,7 +2,7 @@
 
 import React from "react";
 import classnames from "classnames";
-import useLeftContentStore from "@/store/pretected/useLeftContentStore";
+import useLeftContentStore from "@/store/home/useLeftContentStore";
 
 const LeftContent = () => {
   const { tabList, changeOutActive, changeInnerActive } = useLeftContentStore();

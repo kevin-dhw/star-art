@@ -1,14 +1,14 @@
 "use client";
 
 import React from "react";
-import useLeftContentStore from "@/store/pretected/useLeftContentStore";
-import Home from "@/components/protected/right/components/home";
-import Summary from "@/components/protected/right/components/summary";
-import User from "@/components/protected/right/components/user";
-import SchoolNineCartoon from "@/components/protected/right/components/schoolNine/cartoon";
-import SchoolNineChildArt from "@/components/protected/right/components/schoolNine/childArt";
-import SchoolNineSketch from "@/components/protected/right/components/schoolNine/sketch";
-import SchoolNineWrite from "@/components/protected/right/components/schoolNine/write";
+import useLeftContentStore from "@/store/home/useLeftContentStore";
+import Home from "@/components/home/right/components/home";
+import Summary from "@/components/home/right/components/summary";
+import User from "@/components/home/right/components/user";
+import SchoolNineCartoon from "@/components/home/right/components/schoolNine/cartoon";
+import SchoolNineChildArt from "@/components/home/right/components/schoolNine/childArt";
+import SchoolNineSketch from "@/components/home/right/components/schoolNine/sketch";
+import SchoolNineWrite from "@/components/home/right/components/schoolNine/write";
 import FuLiangCartoon from "./components/fuLiang/cartoon";
 import FuLiangChildArt from "./components/fuLiang/childArt";
 import FuLiangSketch from "./components/fuLiang/sketch";

@@ -1,5 +1,5 @@
 // get curent active component
-import { TabItemType } from "@/store/pretected/data";
+import { TabItemType } from "@/store/home/data";
 
 export const getCurComponent = (tabList: TabItemType[]) => {
   let res: string | undefined = "";

@@ -2,7 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Input, Button, Table } from "antd";
 import type { TableColumnsType } from "antd";
 import { createStyles } from "antd-style";
-
+interface DataType {
+  key: React.Key;
+  name: string;
+  age: number;
+  address: string;
+}
 const useStyle = createStyles(({ css, token }) => {
   const { antCls } = token;
   return {
@@ -20,13 +25,6 @@ const useStyle = createStyles(({ css, token }) => {
     `,
   };
 });
-
-interface DataType {
-  key: React.Key;
-  name: string;
-  age: number;
-  address: string;
-}
 
 const columns: TableColumnsType<DataType> = [
   {
